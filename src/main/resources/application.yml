@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: general-tools
+
+http:
+  client:
+    max-total: 200
+    max-per-route: 20
+    connect-timeout: 5000
+    socket-timeout: 10000
+    connection-request-timeout: 3000
+    idle-timeout: 60000
+    keep-alive: true
+    ssl:
+      enabled: false
+      trust-store: classpath:client.keystore
+      trust-store-password: changeit
+      key-store: classpath:client.keystore
+      key-store-password: changeit

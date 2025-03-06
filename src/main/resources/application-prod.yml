@@ -1,0 +1,5 @@
+http:
+  client:
+    max-total: 500
+    max-per-route: 50
+    connection-timeout: 5000 

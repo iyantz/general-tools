@@ -1,4 +1,4 @@
-package cn.yantz.xmltools;
+package cn.yantz.tools.xmltools;
 
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -11,10 +11,10 @@ import java.util.Map;
 
 /**
  * XML文件读取帮助类
- * @author cn.yantz@qq.com
+ * @author cn.yantz@gmail.com
  * @version 1.0
  * @link GeneralTools cn.yantz.xmltools
- * @since 2020/10/28 15:15
+ * @since 2025/03/06 15:15
  */
 public class XmlReaderUtils {
 
